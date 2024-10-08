@@ -1,0 +1,14 @@
+  body {
+    background-color: #47a2c0;
+  }
+  .center-text { 
+    text-align: center; 
+    width: 30%; /* Adjust this percentage as needed */
+    margin: 0 auto; /* Optional: Ensures the container itself is centered */
+  }
+  .leftalign {
+    text-align: left;
+  }
+  .white {
+    color: rgb(255, 255, 255);
+  }
