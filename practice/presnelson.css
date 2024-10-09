@@ -1,5 +1,5 @@
   body {
-    background-color: #47a2c0;
+    background-color: #5ca1d7;
   }
   .center-text { 
     text-align: center; 
@@ -10,5 +10,12 @@
     text-align: left;
   }
   .white {
-    color: rgb(255, 255, 255);
+    color: white;
+  }
+  .hover-text {
+    color: white; 
+  }
+  
+  .hover-text:hover {
+    color: black; 
   }
