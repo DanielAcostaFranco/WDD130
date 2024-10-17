@@ -1,31 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     background-color: #08BDBD;
+    font-family: 'Roboto', 'Rubik', 'Open Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+#logo_link {
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 40px;
+}
 .width {
     max-width: 1600px; 
     width: 100%; 
     margin: 0 auto;
 }
-
+.homegrid{
+    color: white;
+}
 .textcenter {
     text-align: center;
 }
 
-header {
-    background-color: #FF9914;
-
+.rivers-card h2,
+.camping-card h2,
+.rapids-card h2,
+.mountains {
+    color: white;
+    margin: 200px 0;
 }
 
+header {
+    background-color: #FF9914; 
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+}
+
+
 footer {
-    background-color: #ABFF4F;
-    color: gray;
-    font-size: 1.2em;
+    background-color: #FF9914;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    
 }
 
 footer a {
-    color: blue;
+    color: black;
     text-decoration: none;
+    width: 100%;
 }
 
 footer a:hover {
@@ -36,6 +69,8 @@ footer a:hover {
 nav a {
     color: white;
     text-decoration: none;
+    padding: 50px;
+
 }
 
 nav a:hover {
@@ -43,16 +78,31 @@ nav a:hover {
     color: black;
 }
 
+.home-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
+}
+
 .home-title, h4 {
+    font-family: 'Roboto', 'Rubik';
     color: white;
+    font-size: 2em;
 }
 
 .msg {
     background-color: #ABFF4F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg h2, .msg p {
-    color: blue;
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.card-img {
+    border: 10px solid #ffffff;
 }
 
 #background {
@@ -61,8 +111,12 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: white;
+    background-color: #F21B3F;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -72,4 +126,12 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.socialimg {
+    padding-top: 15px;
+}
+.button-box{
+    padding-bottom: 35px;
 }
