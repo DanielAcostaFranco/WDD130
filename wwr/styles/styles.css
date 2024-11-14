@@ -209,11 +209,92 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 200px;
+    margin-top: 200px; 
 }
 #hero-img {
     width: 100%;
 }
+
+#rivers-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#rivers-grid {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#rivers-image {
+    width: 100%;
+    margin-top: 0px;
+}
+#rivers-msg h1{
+    font-size: 3em;
+}
+
+.bigfont2 {
+    font-size: 2.5em;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+#riverssecion1,
+#riverssecion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#riverssecion1 .text {
+    grid-column: 1;
+}
+
+#riverssecion1 img {
+    grid-column: 2;
+}
+
+#riverssecion2 .text {
+    grid-column: 2;
+}
+
+#riverssecion2 img {
+    grid-column: 1;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text h2 {
+    margin: 0;
+}
+
+.text p {
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+   
+}
+.schedule-section {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.calendarimg {
+    margin-bottom: 50px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -239,8 +320,12 @@ nav a:hover {
     #hero-msg h1 {
         color: #6f7364;
     }
+    
     .home-title {
         font-size: 25px;
+    }
+    .river-title {
+        font-size: 50px;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
