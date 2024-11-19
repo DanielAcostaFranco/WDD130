@@ -296,6 +296,24 @@ img {
 }
 
 
+.form-section {
+    background-color: #FFFFFF; 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; 
+    border-radius: 8px;
+  }
+  
+  .formcontact {
+    text-align: center;
+  }
+  .formcontact label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  
+  }
+  
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
